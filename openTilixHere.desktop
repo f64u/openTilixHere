@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+Actions=openTilix;
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false
+Icon=com.gexperts.Tilix 
+
+[Desktop Action openTilix]
+Name=Open Tilix Here
+Icon=com.gexperts.Tilix
+Exec=tilix -w %f
